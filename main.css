@@ -28,6 +28,18 @@ body {
   font-size: var(--fontSize);
 }
 
+.attribution {
+  padding: 0.625rem;
+  margin-top: 3.125rem;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--darkGrayishBlue);
+}
+
+.attribution a {
+  color: var(--darkBlue);
+}
+
 #main {
   width: 730px;
   height: 280px;
