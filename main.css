@@ -6,6 +6,7 @@
   --darkBlue: hsl(214, 17%, 51%);
   --grayishBlue: hsl(212, 23%, 69%);
   --lightGrayishBlue: hsl(210, 46%, 95%);
+  --grayishBlue: #e3edf8;
   --white: #fff;
   --fontSize: 13px;
   --fontFamily: "Manrope", sans-serif;
@@ -178,4 +179,64 @@ body {
   bottom: -14px;
   left: 50%;
   margin-left: -20px;
+}
+
+.share-buttons-active-mobile {
+  display: "";
+  position: absolute;
+  background-color: var(--darkGrayishBlue);
+  width: 100%;
+  padding: 20px;
+  left: 0%;
+  top: 88%;
+  display: flex;
+  align-items: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.share-buttons-active-mobile p {
+  font-size: 12px;
+  color: var(--darkBlue);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.share-buttons-active-mobile a {
+  margin-left: 20px;
+}
+
+.active-social-mobile {
+  position: absolute;
+  top: 91%;
+  left: 80%;
+  background-color: var(--darkBlue);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-social-mobile {
+  position: absolute;
+  top: 91%;
+  left: 80%;
+  background-color: var(--darkBlue);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-social-mobile img {
+  width: 15px;
+  height: 15px;
+}
+
+.active-social-mobile:hover {
+  cursor: pointer;
 }
