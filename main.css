@@ -8,7 +8,7 @@
   --lightGrayishBlue: hsl(210, 46%, 95%);
   --grayishBlue: #e3edf8;
   --white: #fff;
-  --fontSize: 13px;
+  --fontSize: 0.8125rem;
   --fontFamily: "Manrope", sans-serif;
 }
 
@@ -42,10 +42,10 @@ body {
 }
 
 #main {
-  width: 730px;
-  height: 280px;
+  width: 45.625rem;
+  height: 17.5rem;
   background-color: var(--white);
-  border-radius: 15px;
+  border-radius: 0.9375rem;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -53,17 +53,17 @@ body {
 
 #img-container {
   background: url("./images/drawers.jpg");
-  width: 286px;
+  width: 17.875rem;
   height: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 15px 0 0 15px;
+  border-radius: 0.9375rem 0 0 0.9375rem;
 }
 
 #content-container {
   box-sizing: border-box;
-  width: 444px;
-  padding: 40px;
+  width: 27.75rem;
+  padding: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -73,7 +73,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .author-container {
@@ -82,20 +82,20 @@ body {
 }
 
 .author-container img {
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
 }
 
 .author {
-  margin-left: 30px;
+  margin-left: 1.875rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 .title {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: var(--darkGrayishBlue);
   font-weight: 700;
 }
@@ -103,7 +103,7 @@ body {
 .info-txt {
   color: var(--darkBlue);
   line-height: 1.5;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .author p:first-of-type {
@@ -116,8 +116,8 @@ body {
 }
 
 .social-share {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   background-color: var(--lightGrayishBlue);
   border-radius: 50%;
   display: flex;
@@ -126,8 +126,8 @@ body {
 }
 
 .social-share img {
-  width: 15px;
-  height: 15px;
+  width: 0.9375rem;
+  height: 0.9375rem;
 }
 
 .social-share:hover {
@@ -150,9 +150,9 @@ body {
   display: "";
   position: absolute;
   background-color: var(--darkGrayishBlue);
-  width: 250px;
-  padding: 20px;
-  border-radius: 10px;
+  width: 15.625rem;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
   left: 75.2%;
   top: 47%;
   display: flex;
@@ -161,9 +161,9 @@ body {
 }
 
 .share-buttons-active p {
-  font-size: 10px;
+  font-size: 0.625rem;
   color: var(--white);
-  letter-spacing: 5px;
+  letter-spacing: 0.3125rem;
   text-transform: uppercase;
 }
 
@@ -173,12 +173,12 @@ body {
   display: block;
   border-style: solid;
   border-color: var(--darkGrayishBlue) transparent;
-  border-width: 15px 20px 0;
+  border-width: 0.9375rem 1.25rem 0;
   width: 0;
   z-index: 1;
-  bottom: -14px;
+  bottom: -0.875rem;
   left: 50%;
-  margin-left: -20px;
+  margin-left: -1.25rem;
 }
 
 .share-buttons-active-mobile {
@@ -186,24 +186,24 @@ body {
   position: absolute;
   background-color: var(--darkGrayishBlue);
   width: 100%;
-  padding: 20px;
+  padding: 1.25rem;
   left: 0%;
   top: 88%;
   display: flex;
   align-items: center;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 0.9375rem;
+  border-bottom-right-radius: 0.9375rem;
 }
 
 .share-buttons-active-mobile p {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--darkBlue);
-  letter-spacing: 5px;
+  letter-spacing: 0.3125rem;
   text-transform: uppercase;
 }
 
 .share-buttons-active-mobile a {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .active-social-mobile {
@@ -211,8 +211,8 @@ body {
   top: 91%;
   left: 80%;
   background-color: var(--darkBlue);
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -224,8 +224,8 @@ body {
   top: 91%;
   left: 80%;
   background-color: var(--darkBlue);
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -233,8 +233,8 @@ body {
 }
 
 .active-social-mobile img {
-  width: 15px;
-  height: 15px;
+  width: 0.9375rem;
+  height: 0.9375rem;
 }
 
 .active-social-mobile:hover {

@@ -1,8 +1,8 @@
 @media only screen and (max-width: 600px) {
   #main {
     flex-direction: column;
-    width: 330px;
-    height: 520px;
+    width: 20.625rem;
+    height: 32.5rem;
     border: none;
   }
   #img-container {
@@ -11,26 +11,26 @@
     height: 44%;
     background-size: cover;
     background-repeat: no-repeat;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 0.9375rem;
+    border-top-right-radius: 0.9375rem;
     border-bottom-left-radius: 0px;
   }
 
   #content-container {
     width: 100%;
-    padding: 30px;
+    padding: 1.875rem;
   }
 
   .title {
-    font-size: 17px;
+    font-size: 1.0625rem;
     line-height: 1.4;
   }
 
   .info-txt {
-    margin-top: 10px;
+    margin-top: 0.625rem;
   }
 
   .social {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 }
